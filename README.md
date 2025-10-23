@@ -35,7 +35,7 @@ To verify the Functionality using the Test Bench
 
 #### Source Code – Using Case Statement :
 ```
-module alu_case(y,a,b,f); 
+`module alu_case(y,a,b,f); 
 input [31:0]a;
 input [31:0]b;
 input [2:0]f; 
@@ -64,7 +64,7 @@ Similarly, create your test bench using gedit <filename_tb>.v to open a new blan
 
 #### Test Bench :
 ```
-module alu_case_tb; 
+`module alu_case_tb; 
 reg [31:0]a;
 reg [31:0]b;
 reg [2:0]f;
@@ -91,7 +91,7 @@ Use the Save option or Ctrl+S to save the code, or click on the save option from
 
 #### Source Code - Using If Statement :
 ```
-module alu_ifelseif(y,a,b,f);
+`module alu_ifelseif(y,a,b,f);
 input [31:0]a;
 input [31:0]b;
 input [2:0]f; 
@@ -122,7 +122,7 @@ endmodule
 
 #### Test Bench :
 ```
-module alu_ifelseif_tb; 
+`module alu_ifelseif_tb; 
 reg [31:0]a;
 reg [31:0]b;
 reg [2:0]f;
